@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	font-family: microsoft yahei;
+}
+
+/*导航栏*/
+
+.notice{
+	overflow: none;
+
+}
+
+.notice-tit{
+	height: 64px;
+	background-color: #111111;
+	width: 100%;
+	min-width: 1150px;
+	position: fixed;
+	z-index: 1000;
+}
+
+.notice-tit li{
+	float: right;
+	text-align: -webkit-match-parent;
+	width: 105px;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #111111;
+}
+
+.notice-tit a{
+	padding: 20px 20px 22px 20px;
+	color: #FFF;
+}
+
+.notice-tit li a:link,.notice-tit li a:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.notice-tit li a:hover{
+	color: #FEA500;
+	text-decoration: none;
+}
+
+.notice-tit li.select{
+	background-color: #FEA500;
+	height: 64px;
+}
+
+#logo{
+	position: fixed;
+	top:8px;
+	left: 20px;
+	z-index: 1000;
+}
+
+/*登录界面*/
+
+#mod-dl{
+	background-image: url(../img/zc-bg.jpg);
+	min-height: 100vh;
+	min-width: 700px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+
+
+#dl{
+	width: 600px;
+	background-color: #eeeeee;
+	border-radius: 5px;
+	margin: 0 auto 50px auto;
+	font-family: "微软雅黑light";
+	overflow: hidden;
+}
+
+#dl form{
+	margin:40px 0 20px 0;
+}
+
+#dl input{
+	display: block;
+	border-radius: 5px;
+	margin: 15px auto;
+	width: 500px;
+	height: 32px;
+	font-size: 18px;
+	padding: 3px 15px;
+	border: 2px solid #d2d2d2;
+	box-shadow: 0px 0px 3px #d2d2d2;
+}
+
+#dl button{
+	display: block;
+	background-color: #fea500;
+	width: 500px;
+	height: 50px;
+	border-radius: 5px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	border: none;
+	margin: 15px auto;
+}
+
+.title{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	width: 472px;
+	margin: 0 auto;
+}
+
+.title div{
+	padding: 0 20px;
+	font-size: 40px;
+	display: inline-block;
+	letter-spacing: 3px;
+}
+
+.title .t1{
+	color: #fea500;
+}
+
+.title .t2{
+	color: #FFF;
+}
+
+.footer{
+	margin: 20px auto 40px auto;
+	width: 311px;
+}
+
+.footer div{
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+	display: inline-block;
+}
+
+.footer .t1{
+	color: #9e9c9c;
+}
+
+.footer .t2 a{
+	color: #fea500;
+}
