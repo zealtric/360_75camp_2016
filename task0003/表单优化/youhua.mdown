@@ -1,0 +1,60 @@
+#<font face="微软雅黑">表单优化</font>
+
+<font face="微软雅黑" size=4>我找的是计算机等级考试报名时需要注册的**ETEST通行证**的页面</font>
+
+[ETEST通行证注册页面](https://passport.etest.net.cn/Register"ETEST通行证")
+
+###<font face="微软雅黑">可改进的地方</font>
+
+![可改进的地方](https://app.yinxiang.com/shard/s41/res/a5a16269-532b-4181-a8e1-c3535d0d6c6c"可改进的地方")
+
+	<div class="input_sub1" align="left">
+		<label></label>
+	</div>
+
+####<font face="微软雅黑">**改进**
+&emsp;&emsp;这个`<div>`多余了，可以省去。</font>
+
+******************************************************
+
+###<font face="微软雅黑">可改进的地方</font>
+
+![可改进的地方](https://app.yinxiang.com/shard/s41/res/1166dcff-6bd5-4ad8-a382-325c937f0149"可改进的地方")
+
+	<div class="input_sub" align="left">
+		<p style="margin-right:15px;margin-left:80px;font-size:12px;color:#666;margin-bottom:5px;">提示：邮箱将作为您的登录账号</p>
+		<label>电子邮箱：</label>
+		<input name="ctl00$MainContent$txtEmail" type="text" id="MainContent_txtEmail" class="input_style">
+	</div>
+
+####<font face="微软雅黑">**改进**
+&emsp;&emsp;这里在输入框上方用`<p>`标签来指引用户不太美观，界面不太友好，我觉得用`placeholder`属性更好操作，而且也更美观</font>
+
+	<div class="input_sub" align="left">
+		<label>电子邮箱：</label>
+		<input name="ctl00$MainContent$txtEmail" type="text" id="MainContent_txtEmail" class="input_style" placeholder="邮箱将作为您的登录账号">
+	</div>
+
+**********************************************************
+
+###<font face="微软雅黑">可改进的地方</font>
+
+![可改进的地方](https://app.yinxiang.com/shard/s41/res/c2fdd807-e6e5-45ed-8060-265d8b8f6f8d"可改进的地方")
+
+	<div class="input_sub1" align="left">
+		<p style="margin-right:50px;margin-left:52px;font-size:12px;color:#666;margin-top:5px;">提示：密码长度为6-18位字符</p>
+		<label>密码：</label>
+		<input name="ctl00$MainContent$txtPassword" type="Password" id="MainContent_txtPassword" class="input_style">
+		<span id="MainContent_RequiredFieldValidator5" style="color:#CC3300;visibility:hidden;">*</span>
+		<span id="MainContent_RegularExpressionValidator3" style="color:#CC3300;margin-left:-14px;visibility:hidden;">*</span>
+	</div>
+
+####<font face="微软雅黑">**改进**
+&emsp;&emsp;原网页在此输入框后面写了两个`*`，一个用以输入了密码却不符合字数规则时显示，一个用以密码为空时显示。我觉得可以只写一个`*`，上面两个条件无论哪个为`true`都使这个`*`显示。</font>
+
+	<div class="input_sub1" align="left">
+		<p style="margin-right:50px;margin-left:52px;font-size:12px;color:#666;margin-top:5px;">提示：密码长度为6-18位字符</p>
+		<label>密码：</label>
+		<input name="ctl00$MainContent$txtPassword" type="Password" id="MainContent_txtPassword" class="input_style">
+		<span id="MainContent_RequiredFieldValidator5" style="color:#CC3300;visibility:hidden;">*</span>
+	</div>

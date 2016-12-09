@@ -1,0 +1,48 @@
+*{
+	font-family: microsoft yahei;
+	font-size: 18px;
+}
+
+table{
+	margin: 0 auto;
+	border: 2px solid #000;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+caption{
+	font-size: 48px;
+}
+
+th{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+td{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+.lesson{
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.lesson1{
+	background-color: #aad7ff;
+}
+
+.lesson2{
+	background-color: #ffaad7;
+}
+
+.lesson3{
+	background-color: #ffd7aa;
+}
+
+.lesson4{
+	background-color: #bebebe;
+}

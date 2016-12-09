@@ -1,0 +1,24 @@
+#<font face="微软雅黑">找茬</font>
+
+###<font face="微软雅黑">问题页面</font>
+
+<font face="微软雅黑">[北京点点网科技有限公司](http://www.firstpoint.cn/"点点网")</font>
+
+###<font face="微软雅黑">不足之处</font>
+
+![页面问题图片](https://app.yinxiang.com/shard/s41/res/4ab7a229-ec6d-40f0-948c-83c33522cb7e"网页问题图片")
+
+###<font face="微软雅黑">网站代码展示</font>
+
+![问题代码](https://app.yinxiang.com/shard/s41/res/f1c955ba-d204-425f-924b-542a8940db93"问题代码")
+
+####<font face="微软雅黑">**问题所在**
+&emsp;&emsp;导航栏只是简单地在`<p>`标签中加入一个个`<a>`元素，然后很粗制滥造地用空格`&nbsp;`将他们隔开。</font>
+
+----------------
+________________
+
+![问题代码](https://app.yinxiang.com/shard/s41/res/40fefb52-f094-47d4-aff6-09e354862cad"问题代码")
+
+####<font face="微软雅黑">**问题所在**
+&emsp;&emsp;CSS中给这个`<td>`元素设定的宽度太小，导致挤压了浮动处理的右上角导航栏。</font>
