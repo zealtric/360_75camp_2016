@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	font-family: microsoft yahei;
+}
+
+a{
+	position: relative;
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav{
+	height: 50px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+nav ul{
+	height: 50px;
+	width: 1000px;
+	background-color: #4e4141;
+	border-radius: 5px;
+}
+
+nav ul li:nth-child(1) ul{
+	height: 90px;
+	width: 250px;
+}
+
+nav ul li:nth-child(2) ul{
+	height: 150px;
+	width: 250px;
+}
+
+nav ul li:nth-child(3) ul{
+	height: 120px;
+	width: 250px;
+}
+
+nav ul li:nth-child(4) ul{
+	height: 150px;
+	width: 250px;
+}
+
+nav ul li{
+	float: left;
+	height: 50px;
+	width: 250px;
+	text-align: center;
+	line-height: 50px;
+}
+
+/*重写，避免第二层li继承浮动*/
+nav ul li ul li{
+	float: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+nav ul ul{
+	display: none;
+	border-radius: 0 0 5px 5px;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul li:nth-child(1):hover{
+	border-radius: 5px 0 0 0;
+}
+
+nav ul li:nth-child(4):hover{
+	border-radius: 0 5px 0 0;
+}
+
+/*此处第二层的li也继承了这个属性*/
+nav ul li:hover{
+	background-color: #272727;
+}
+
+a:hover::before, a:hover::after{
+	position: absolute;
+}
+
+a:hover::before{
+	content: "\5B";
+	left: -10px;
+}
+
+a:hover::after{
+	content: "\5D";
+	right: -10px;
+}
+
+nav ul ul li:hover{
+	border-radius: 0px!important;
+}
+
+nav ul ul li:last-child{
+	border-radius: 0 0 5px 5px!important;
+}
