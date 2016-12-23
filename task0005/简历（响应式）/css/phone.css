@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*这里初始化了font-size之后，就不能对h2标签单独定义font-size了？
+	font-size: 18px;*/
+	font-family: microsoft yahei;
+}
+
+h2{
+	font-size: 18px;
+}
+
+body{
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+  background-position: center;
+}
+
+#container{
+	margin: 0 auto;
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+aside{
+	background-color: #254665;
+	width: 285px;
+	height: 440px;
+  padding-left: 15px;
+  padding-top: 20px;
+	border-radius: 10px 10px 0 0;
+}
+
+main{
+	background-color: #FFF;
+	width: 270px;
+	height: 900px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+	border-radius: 0 0 10px 10px;
+}
+
+img{
+	width: 80px;
+  border: 3px solid #92A3B2;
+	border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+h1{
+  position: relative;
+  left: 110px;
+  top: -400px;
+  color: #FFF;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+#baseinfo{
+	color: #FFF;
+	font-size: 16px;
+}
+
+#baseinfo li{
+	margin-bottom: 15px;
+}
+
+#baseinfo i{
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+#proskill{
+	color: #FFF;
+	font-size: 18px;
+  width: 120px;
+  height: 150px;
+}
+
+#Java{
+	width: 80px;
+	border-bottom: 8px solid #92A3B2;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#Web{
+	width: 120px;
+	border-bottom: 8px solid #92A3B2;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#Cplus{
+	width: 100px;
+	border-bottom: 8px solid #92A3B2;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#interest{
+	color: #92A3B2;
+	font-size: 14px;
+  height: 150px;
+  width: 100px;
+	margin-top: -150px;
+  margin-left: 130px;
+  padding-left: 40px;
+}
+
+#interest i{
+	font-size: 24px;
+}
+
+#interest p{
+	text-align: center;
+	width: 50px;
+  height: 20px;
+  line-height: 20px;
+	margin-left: -13px;
+}
+
+#interest li{
+	width: 50px;
+	float: left;
+  margin-bottom: 5px;
+}
+
+#interest-title{
+	margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+/*下面部分*/
+
+#edu i{
+	font-size: 34px;
+	color: #254665;
+}
+
+#edu h2{
+	color: #254665;
+	margin-left: 50px;
+	margin-top: -36px;
+	border-bottom: 2px solid #254665;
+	padding-bottom: 3px;
+  margin-bottom: 25px;
+}
+
+#edu p{
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+#edu{
+	margin-bottom: 30px;
+  margin-top: -55px;
+	font-size: 16px;
+}
+
+#experience i{
+	font-size: 34px;
+	color: #254665;
+}
+
+#experience h2{
+  color: #254665;
+	margin-left: 50px;
+	margin-top: -36px;
+	border-bottom: 2px solid #254665;
+	padding-bottom: 3px;
+  margin-bottom: 25px;
+}
+
+#experience{
+	font-size: 16px;
+}
+
+#experience p{
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.each-pro{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*这里初始化了font-size之后，就不能对h2标签单独定义font-size了？
+	font-size: 18px;*/
+	font-family: microsoft yahei;
+}
+
+p{
+	line-height: 40px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+body{
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+}
+
+#container{
+	margin: 0 auto;
+	width: 1060px;
+	height: 1300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+aside{
+	background-color: #254665;
+	width: 240px;
+	height: 1260px;
+	padding-left: 20px;
+	padding-top: 40px;
+	border-radius: 20px 0 0 20px;
+}
+
+main{
+	background-color: #FFF;
+	width: 720px;
+	height: 1260px;
+	margin-top: -1300px;
+	margin-left: 260px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	border-radius: 0 20px 20px 0;
+}
+
+img{
+	border: 5px solid #92A3B2;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	width: 150px;
+}
+
+#baseinfo{
+	color: #FFF;
+	font-size: 18px;
+}
+
+#baseinfo li{
+	margin-bottom: 45px;
+}
+
+#baseinfo i{
+	margin-right: 10px;
+	font-size: 22px;
+}
+
+#proskill{
+	color: #FFF;
+	font-size: 18px;
+	margin-top: 125px;
+}
+
+#Java{
+	width: 150px;
+	border-bottom: 10px solid #92A3B2;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#Web{
+	width: 200px;
+	border-bottom: 10px solid #92A3B2;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#Cplus{
+	width: 130px;
+	border-bottom: 10px solid #92A3B2;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#interest{
+	color: #92A3B2;
+	font-size: 18px;
+	margin-top: 125px;
+}
+
+#interest i{
+	font-size: 48px;
+}
+
+#interest p{
+	text-align: center;
+	width: 60px;
+	margin-left: -6px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#interest li{
+	width: 80px;
+	float: left;
+}
+
+#interest-title{
+	margin-bottom: 30px;
+}
+
+h1{
+	font-size: 50px;
+	color: #254665;
+	margin-bottom: 70px;
+}
+
+#edu i{
+	font-size: 45px;
+	color: #254665;
+}
+
+#edu h2{
+	color: #254665;
+	margin-left: 60px;
+	margin-top: -45px;
+	margin-bottom: 60px;
+	border-bottom: 2px solid #254665;
+	padding-bottom: 3px;
+}
+
+#edu li{
+	float: left;
+	width: 240px;
+}
+
+#edu{
+	overflow: hidden;
+	margin-bottom: 100px;
+	font-size: 18px;
+}
+
+.fudong{
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+#experience i{
+	font-size: 45px;
+	color: #254665;
+}
+
+#experience h2{
+	color: #254665;
+	margin-left: 60px;
+	margin-top: -45px;
+	margin-bottom: 60px;
+	border-bottom: 2px solid #254665;
+	padding-bottom: 3px;
+}
+
+#experience li{
+	float: left;
+	width: 240px;
+}
+
+#experience{
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.each-pro{
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
