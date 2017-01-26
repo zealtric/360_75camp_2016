@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: microsoft yahei;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrapper{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+}
+
+/*中间部分*/
+.centerMes{
+	height: 320px;
+	padding: 20px 0 0;
+}
+
+.centerMes:nth-child(2){
+	background-color: #eceaea;
+}
+
+.centerInner{
+	height: 100%;
+}
+
+#xydtMes{
+	width: 100%;
+	height: 100%;
+}
+
+.tt{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.tit span{
+	font-family: microsoft yahei light;
+	font-size: 20px;
+}
+
+.conWrapper{
+	height: 210px;
+	width: 1020px;
+	padding: 0 40px;
+}
+
+.conInner{
+	height: 100%;
+	width: 100%;
+}
+
+.conLi{
+	width: 300px;
+	height: 100%;
+	margin: 0 20px;
+	float: left;
+}
+
+.colora{
+	border-top: 3px solid #01559D;
+}
+
+.colorb{
+	border-top: 3px solid #ff0000;
+}
+
+.colorc{
+	border-top: 3px solid #02ff00;
+}
+
+.newsTit{
+	margin-top: 15px;
+	width: 300px;
+	height: 20px;
+	font-size: 15px;
+}
+
+.newsTit a{
+	color: #000;
+}
+
+.newsTit a:hover{
+	color: #01559D;
+	text-decoration: underline;
+}
+
+.newsTime{
+	width: 300px;
+	height: 16px;
+	font-size: 12px;
+	margin: 10px 0 20px;
+}
+
+.newsText{
+	width: 300px;
+	height: 125px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #a98888;
+}
+
+.conMore{
+	height: 60px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.conMore button{
+	width: 80px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+}
+
+.conMore a{
+	color: #fff;
+	padding: 7px 26px 5px 26px;
+}
+
+#xydtMore button{
+	background-color: #003262;
+}
+
+#zkgkMore button{
+	background-color: #ff0000;
+}
+
+#xywxMore button{
+	background-color: #02ff00;
+}
+
+.conMore button:hover{
+	cursor: pointer;
+}
+
+#xydtMore button:hover{
+	background-color: #1b4b79;
+}
+
+#zkgkMore button:hover{
+	background-color: #1b4b79;
+}
+
+#xywxMore button:hover{
+	background-color: #1b4b79;
+}
+
