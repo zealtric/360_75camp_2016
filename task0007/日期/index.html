@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>日期</title>
+</head>
+<body>
+	
+</body>
+
+<script type="text/javascript">
+	window.onload = function () {
+		let daysOfMonth = [];
+		let ss = [];
+		let aa = [];
+		let dd = [];
+		let ee = [];
+		let fullYear = new Date().getFullYear();
+		let month = 2;
+		let lastDayOfMonth = new Date(fullYear, month, 0).getDate();
+		for (var i = 0; i < lastDayOfMonth; i++) {
+			daysOfMonth.push(fullYear + '/' + month + '/' +i);
+		}
+		for (var i = 0; i < daysOfMonth.length; i++) {
+			aa[i] = new Date(daysOfMonth[i]);
+			ss[i] = aa[i].getDay();
+		}
+		
+		function getOffsetDays(time1, time2){
+			var offsetTime = time2 - time1;
+			return Math.floor(offsetTime / (3600*24*1e3))+1;
+		}
+
+		//获取相隔天数
+		for (var i = 0; i < daysOfMonth.length; i++) {
+			dd[i] = getOffsetDays(Date.now(), (aa[i]).getTime());
+		}
+
+		for (var i = 0; i < daysOfMonth.length; i++) {
+			if (ss[i] == 3) {
+				ee.push("date:" + daysOfMonth[i] + "\n" + "daysBefore:" + dd[i] + "\n");
+			}
+		}
+		alert(ee);
+
+	}
+</script>
+
+</html>

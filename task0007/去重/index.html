@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>去重</title>
+</head>
+<body>
+	<label for="">输入</label>
+	<input type="text" id="input">
+	<button onclick="change()">提交</button>
+</body>
+
+<script type="text/javascript">
+	function change() {
+		var elem = document.getElementById('input').value;
+		var arrayList = elem.split(",","50");
+		console.log(arrayList); 
+		var tmp = new Array();
+		for (var i = 0; i < arrayList.length; i++) {
+			if (tmp.indexOf(arrayList[i]) == -1) {
+				tmp.push(arrayList[i]);
+			}
+		}
+		var resultString = "";
+		for (var i = 0; i < tmp.length; i++) {
+			resultString += tmp[i] + ",";
+		}
+		resultString = resultString.substring(0,resultString.length-1);
+		alert(resultString);
+	}
+</script>
+
+</html>

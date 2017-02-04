@@ -1,0 +1,223 @@
+#daohangwrap{
+	background-color: #003262;
+}
+
+.inner{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#daohang{
+	height: 120px;
+}
+
+/*校名logo*/
+#SchoolNameTop{
+	height: 70px;
+	width: 240px;
+	padding: 25px 0;
+	margin-bottom: -120px;
+}
+
+.SchoolNameLink{
+	padding-top: 60px;
+}
+
+/*导航栏*/
+nav{
+	width: 800px;
+	height: 120px;
+	position: relative;
+	left: 300px;
+}
+
+#each li{
+	float: right;
+	height: 90px;
+	line-height: 90px;
+	padding: 30px 20px 0;
+}
+
+#each a{
+	font-size: 20px;
+	color: #FFF;
+}
+
+#each a:hover{
+	color: #31a5e7;
+}
+
+#each span{
+	font-size: 20px;
+	color: #FFF;
+}
+
+#each span:hover{
+	color: #31a5e7;
+	cursor: pointer;
+}
+
+/*banner*/
+.swiper-container {
+    width: 100%;
+    height: 550px;
+}
+
+
+.branches{
+	width: 1058px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -550px;
+	z-index: 100;
+	display: none;
+}
+
+.branch-wrap{
+	height: 100%;
+	width: 100%;
+}
+
+.left{
+	height: 200px;
+	width: 640px;
+	border-right: 1px solid #ddd;
+}
+
+.picMes{
+	height: 200px;
+	width: 300px;
+}
+
+.picMes img{
+	width: 100%;
+	height: 100%;
+}
+
+.textMes{
+	height: 200px;
+	width: 290px;
+	position: relative;
+	left: 320px;
+	top: -200px;
+	margin-bottom: -200px;
+}
+
+.daohangtext{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	color: #000;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.right{
+	width: 397px;
+	height: 200px;
+	color: #003262;
+	font-size: 16px;
+	font-weight: 900;
+	position: relative;
+	top: -200px;
+	left: 640px;
+	padding: 0 12px 0 30px;
+	overflow: hidden;
+}
+
+.branch{
+	float: left;
+	width: 190px;
+}
+
+.branch li{
+	line-height: 50px;
+}
+
+.branch a:hover{
+	color: #31a5e7;
+}
+
+.hover{
+	display: block;
+}
+
+.highlight{
+	color: #31a5e7 !important;
+}
+
+/*底部部分*/
+#footMes{
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #003262;
+}
+
+.container{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+#up{
+	height: 200px;
+}
+
+#SchoolNameDown{
+	width: 400px;
+	height: 118px;
+}
+
+#linkother{
+	width: 500px;
+	height: 200px;
+	position: relative;
+	top: -118px;
+	left: 600px;
+	margin-bottom: -118px;
+	overflow: hidden;
+}
+
+#fengexian{
+	width: 500px;
+	border-bottom: 1px solid #194671;
+	margin: 20px 0;
+}
+
+#cylj{
+	font-size: 24px;
+	color: #cccccc;
+}
+
+.linkMes{
+	width: 250px;
+	float: left;
+}
+
+.linkMes a{
+	color: #cccccc;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.linkMes a:hover{
+	color: #31a5e7;
+}
+
+.copyright{
+	color: #cccccc;
+	font-size: 14px;
+}
+
+.copyright p{
+	line-height: 50px;
+	padding-left: 15px;
+}

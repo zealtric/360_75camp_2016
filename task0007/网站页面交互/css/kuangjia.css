@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: microsoft yahei;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrapper{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+}
+
+/*banner*/
+.sec_a{
+	width: 100%;
+	height: 300px;
+}
+
+.sec_a img{
+	width: 100%;
+	height: 100%;
+}
+
+/*主要内容*/
+.sec_b{
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.inner_i{
+	width: 1050px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+
+.xxgk_cbl{
+	width: 216px;
+	height: 340px;
+	margin-top: -70px;
+	float: left;
+}
+
+.menu_head{
+	width: 100%;
+	height: 70px;
+	background-color: #003262;
+	opacity: 0.9;/*这个厉害了，，，透明度起到了至关重要的作用，去掉试试，但是不知道为什么会这样*/
+	margin-bottom: 6px;
+}
+
+.menu_name{
+	padding: 10px 5px 10px 26px;
+	color: #fff;
+	width: 185px;
+	height: 51px;
+}
+
+.menu_name span{
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.menu_con{
+	width: 100%;
+	height: 264px;
+}
+
+.menu_detail{
+	width: 100%;
+	height: 100%;
+}
+
+.menu_detail li{
+	width: 216px;
+	height: 42px;
+	margin-bottom: 2px;
+	background-color: #fff;
+	line-height: 42px;
+}
+
+.menu_detail a{
+	color: #003262;
+	font-size: 14px;
+	padding: 12px 134px 11px 26px;
+}
+
+article{
+	float: right;
+	width: 800px;
+	padding-top: 50px;
+}
+
+.clear{
+	clear: both;
+}
+
+.news_title{
+	width: 80px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	color: #272525;
+	border-bottom: 3px solid #960218;
+	margin-bottom: 5px;
+}
+
+.news_con{
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 7px 50px 7px;
+}
+
+pre{ 
+	white-space: pre-wrap; /*css-3*/ 
+	white-space: -moz-pre-wrap; /*Mozilla,since1999*/ 
+	white-space: -pre-wrap; /*Opera4-6*/ 
+	white-space: -o-pre-wrap; /*Opera7*/ 
+	word-wrap: break-word; /*InternetExplorer5.5+*/ 
+} 
+
+.news_p{
+	width: 100%;
+	font-size: 16px;
+	line-height: 2em;
+	font-family: times new roman;
+	margin-bottom: 6px;
+}

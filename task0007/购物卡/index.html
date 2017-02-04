@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物卡</title>
+</head>
+<body>
+	<label for="">输入卡号</label>
+	<input type="text" id="input">
+	<button onclick="change()">提交</button>
+</body>
+
+<script type="text/javascript">
+	function change() {
+		var elem = document.getElementById('input').value;
+		// elem = elem.replace("-","");
+		elem = elem.replace(/\-/g,"");
+		elem = elem.toUpperCase();
+		// alert(elem.length)
+		if (elem.length == 20) {
+			alert (elem);
+		} else {
+			alert ("异常：无效的密码格式");
+		}
+	}
+</script>
+</html>
